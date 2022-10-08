@@ -28,15 +28,7 @@ body {
     --clr-accent: lightyellow;
 
     --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
-
-    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
-        0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
-
-
 
 .intro-container {
 
@@ -114,8 +106,7 @@ button {
 .intro-img {
     /* vertical-align: middle; */
     width: 350px;
-    height: 450px;
-    /* border-radius: 20px; */
+    height: 450px;    
     align-self: center;
     border: 7px solid white;
     margin-right: 200px;
@@ -142,7 +133,6 @@ button {
 #education {
 
     height: 110vh;
-    /* background-color: rgb(250, 245, 245,0.6); */
     scroll-behavior: smooth;
     background-color: var(--clr-light);
     padding-top: 30px;
@@ -152,7 +142,6 @@ button {
 }
 
 .edu-back {
-    /* height:20vh; */
     width: 70vh;
 
 }
@@ -196,11 +185,9 @@ button {
 }
 
 .edu-div {
-    /* text-align: center; */
     display: flex;
     align-items: center;
     flex-direction: column;
-
     justify-content: center;
     /* float: right; */
     height: 30vh;
@@ -308,9 +295,6 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--clr-light);
-    /* height: 400px; */
-    /* transition: 0.5; */
-    /* overflow: hidden; */
 
 }
 
@@ -524,8 +508,7 @@ h2 {
 
 
     #myservices {
-        /* background-color:var(--clr-accent); */
-        height: 1000px;
+        height:120vh;
         width: 45vh;
         margin: auto;
         align-items: center;
@@ -551,7 +534,7 @@ h2 {
         margin-top: 60px;
         display: block;
     }
-
+    
     #myprojects h1 {
         padding-bottom: 70px;
         padding-top: 30px;
@@ -579,16 +562,8 @@ h2 {
         background-color: var(--clr-accent);
     }
     #myprojects{
-        height: 120vh;
+        height: 140vh;
     }
-    /* .navlink{
-        flex-direction: column;
-        height: 200px;
-        width: 500px;
-    }
-    .navlink a{
-        display: block;
-    } */
 }
 
 nav{
@@ -643,7 +618,7 @@ nav{
   }
   @media (max-width: 952px){
     label.logo{
-      font-size: 20px;
+      font-size: 16px;
       padding-left: 10px;
     }
     nav ul li a{
