@@ -36,61 +36,6 @@ body {
         0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
 
-/* nav {
-
-    display: flex;
-    z-index: 1000;
-    position: fixed;
-    flex-direction: row;    
-    align-items: center;
-    justify-content: space-between;
-    
-    height: 14vh;
-    border-bottom: 1px solid lightyellow;
-    width: 100vw;
-    background-color: var(--clr-light);
-}
-.navdiv{
-    width: 100%;
-    scroll-behavior: smooth;
-}
-.navlink {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    align-self: flex-end;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-
-/* } */
-
-/* #logo {
-    font-family: 'Source Code Pro', monospace;
-    color: var(--clr-accent);
-    font-size: 20px;
-    /* font-weight: var(--fw-reg); */
-    /* letter-spacing: 4px;
-    padding-left: 30px;
-    margin-top: 7px; */
-
-
-/* .navlink li {
-    list-style-type: none
-}
-
-.navlink li a {
-    list-style-type: none;
-    text-decoration: none;
-    color: var(--clr-dark);
-    font-weight: 800;
-    padding: 10px 30px 10px 30px;
-    font-size: 20px;
-} */
-
-/* .toggle {
-    display: none;
-} */ 
 
 
 .intro-container {
@@ -165,17 +110,7 @@ button {
     cursor: pointer;
 
 }
-/* .navlink li a:hover {
-    color: green;
-  }
-.navlink li a:active{
-    width: 10px;
-    height: 80px;
-    border-radius: 30px;
-    background-color: aqua;
-    
-    
-} */
+
 .intro-img {
     /* vertical-align: middle; */
     width: 350px;
@@ -206,20 +141,12 @@ button {
 
 #education {
 
-    /* background :  linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"); */
     height: 110vh;
     /* background-color: rgb(250, 245, 245,0.6); */
     scroll-behavior: smooth;
     background-color: var(--clr-light);
     padding-top: 30px;
     width: 100wh;
-    /* font-family: 'Josefin Sans', sans-serif; */
-    /* display: flex;
-    
-    align-items: center;
-    justify-content: space-evenly; */
-
-    /* margin: 10px; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -474,32 +401,6 @@ h2 {
 }
 
 @media (max-width:420px) {
-    /* .toggle {
-        display: block;
-        font-size: 30px;
-        text-align: left;
-        color: white;
-        color: var(--clr-accent);
-        font-size: 30px;
-        padding-right: 20px;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    nav ul li a {
-        display: none;
-        font-size: 10px;
-    }
-
-
-    #logo {
-
-        margin: 0px 0px 0px 10px;
-        padding: 0px;
-    } */
-
     .intro-container {
         height: 120vh;
         justify-content: center;
