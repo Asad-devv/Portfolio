@@ -383,7 +383,7 @@ h2 {
     margin: 5px 0px 5px 0px;
 }
 
-@media (max-width:420px) {
+@media (max-width:460px) {
     .intro-container {
         height: 120vh;
         flex-wrap:wrap;
@@ -616,7 +616,7 @@ nav{
   #check{
     display: none;
   }
-  @media (max-width: 430px){
+  @media (max-width: 460px){
     nav{
         border-bottom: 1px solid lightyellow;
         position: fixed;
