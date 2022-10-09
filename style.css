@@ -34,7 +34,6 @@ body {
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     height: 110vh;
     width: 100%;
@@ -387,6 +386,7 @@ h2 {
 @media (max-width:420px) {
     .intro-container {
         height: 120vh;
+        flex-wrap:wrap;
         justify-content: center;
         background-color: var(--clr-accent);
         color: var(--clr-accent);
